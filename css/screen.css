@@ -14,23 +14,28 @@ body {
     color:bisque;
 }
 
-a {
-    
-}
-
 #navbar-container {
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
-    position: fixed;
-    
-    padding-right: 75%;
-    padding-left: 10%;
-    padding: 70px;
-    width: 25%;
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+  position: fixed;
+  float: left;
+  padding-right: 75%;
+  padding-left: 10%;
+  padding: 70px;
+  width: 25%;
 }
 
 #main-navbar {
-    border-style: ridge;
-    border-color: azure;
-
+  border-style: ridge;
+  border-color: azure;
 }
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  display: inline-block
+}
+
