@@ -22,8 +22,9 @@ a {
     font-family: 'Oswald', sans-serif;
     font-size: large;
     position: fixed;
-    padding-left: 75%;
-    padding-right: 10%;
+    
+    padding-right: 75%;
+    padding-left: 10%;
     padding: 70px;
     width: 25%;
 }
