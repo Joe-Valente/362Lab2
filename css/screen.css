@@ -31,7 +31,6 @@ body {
 }
 
 #main-navbar ul li a{
-    padding: 15px 20px;
     text-decoration: underline;
     display: inline-flex;
 }
