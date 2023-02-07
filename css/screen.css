@@ -26,6 +26,8 @@ body {
 #main-navbar {
   border-style: ridge;
   border-color: azure;
+  padding: 15px;
+  text-align: center;
 }
 
 #main-navbar ul {
