@@ -61,7 +61,7 @@ a a:hover a:visited a:active {
 #form-container form ul li legend {
   font-family: 'Oswald', sans-serif;
   font-size: 150%;
-  text-align: inherit;
+  text-align: center;
 }
 
 #form-container form {
