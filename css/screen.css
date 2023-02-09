@@ -35,7 +35,7 @@ body {
 }
 
 a a:hover a:visited a:active {
-  color: inherit;
+  color: bisque;
   text-decoration: underline overline;
 }
 
