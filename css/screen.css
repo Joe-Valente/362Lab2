@@ -86,7 +86,5 @@ body {
 }
 
 #form-container form input {
-  position: relative;
   padding: 5px;
-  float: inline-end;
 }
