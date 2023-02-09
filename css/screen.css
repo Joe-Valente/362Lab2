@@ -57,7 +57,7 @@ a a:hover a:visited a:active {
 
 #main-navbar ul li a{
   text-decoration: underline;
-  display: inline-flex;
+  display: relative;
 }
 
 #main-navbar ul {
