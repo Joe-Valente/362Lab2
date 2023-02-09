@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 @viewport {
-    width: device-width; 
-    zoom: 1.0;
+  width: device-width; 
+  zoom: 1.0;
 }
 
 @media screen and (max-width: 480px) {
@@ -29,9 +29,9 @@
 }
 
 body {
-    background-color: rgb(15, 15, 171);
-    color:bisque;
-    text-align: left;
+  background-color: rgb(15, 15, 171);
+  color:bisque;
+  text-align: left;
 }
 
 #navbar-container {
@@ -51,8 +51,8 @@ body {
 }
 
 #main-navbar ul li a{
-    text-decoration: underline;
-    display: inline-flex;
+  text-decoration: underline;
+  display: inline-flex;
 }
 
 #main-navbar ul {
@@ -65,10 +65,10 @@ body {
 }
 
 #form-container {
-    float: left;
-    position: relative;
-    text-align: center;
-    padding: 10px;
+  float: left;
+  position: relative;
+  text-align: center;
+  padding: 10px;
 }
 
 #form-container h2 {
