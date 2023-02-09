@@ -48,4 +48,13 @@ body {
 #form-container {
     float: left;
     position: relative;
+    text-align: center;
+}
+
+#form-container h2 {
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  float: left;
+  padding: 10px;
+  width: 25%;
 }
