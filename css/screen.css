@@ -17,7 +17,7 @@
   #main-navbar {
     border-style: ridge;
     border-color: azure;
-    padding: 15%;
+    padding: 5%;
     text-align: left;
   }
   #form-container {
@@ -46,7 +46,7 @@ body {
 #main-navbar {
   border-style: ridge;
   border-color: azure;
-  padding: 15%;
+  padding: 5%;
   text-align: left;
 }
 
@@ -86,7 +86,6 @@ body {
 }
 
 #form-container form input {
-  position: inline-flex;
+  position: relative;
   padding: 5px;
-  float: inline-end;
 }
