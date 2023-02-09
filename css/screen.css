@@ -20,10 +20,16 @@
     padding: 15%;
     text-align: left;
   }
+  #form-container {
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+  }
 }
 
 body {
-    background-color: rgba(26, 74, 169, 0.521);
+    background-color: rgba(7, 47, 127, 0.521);
     color:bisque;
     text-align: left;
 }
