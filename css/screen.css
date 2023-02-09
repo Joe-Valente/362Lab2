@@ -80,7 +80,6 @@ a a:hover a:visited a:active {
 #form-container h2 {
   font-family: 'Oswald', sans-serif;
   position: relative;
-  float: top left;
   padding: 10%;
   width: 25%;
 }
