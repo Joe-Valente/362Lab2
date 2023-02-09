@@ -12,6 +12,7 @@
 body {
     background-color: rgba(26, 74, 169, 0.521);
     color:bisque;
+    text-align: left;
 }
 
 #navbar-container {
@@ -27,7 +28,7 @@ body {
   border-style: ridge;
   border-color: azure;
   padding: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 #main-navbar ul li a{
