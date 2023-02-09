@@ -79,12 +79,7 @@ body {
   width: 25%;
 }
 
-#form-container form label {
-  position: inline-flex;
-  padding: 5px;
-  float: inline-start;
-}
-
-#form-container form input {
+#form-container form {
+  position: relative;
   padding: 5px;
 }
