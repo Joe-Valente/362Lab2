@@ -6,7 +6,20 @@
 }
 
 @media screen and (max-width: 480px) {
-
+  #navbar-container {
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    position: relative;
+    float: left;
+    padding: 5px;
+    width: 25%;
+  }
+  #main-navbar {
+    border-style: ridge;
+    border-color: azure;
+    padding: 15%;
+    text-align: left;
+  }
 }
 
 body {
