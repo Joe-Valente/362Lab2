@@ -37,7 +37,7 @@ body {
 #navbar-container {
   font-family: 'Oswald', sans-serif;
   font-size: large;
-  position: relative;
+  position: inline-block;
   float: left;
   padding: 10px;
   width: 25%;
@@ -73,10 +73,18 @@ body {
 
 #form-container h2 {
   font-family: 'Oswald', sans-serif;
-  position: relative;
+  position: inline-flex;
   float: left;
   padding: 10%;
   width: 25%;
 }
 
+#form-container form label {
+  position: inline-flex;
+  padding: 5px;
+}
 
+#form-container form input {
+  position: inline-flex;
+  padding: 5px;
+}
