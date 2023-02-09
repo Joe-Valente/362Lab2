@@ -29,7 +29,7 @@
 }
 
 body {
-  background-color: rgb(15, 15, 171);
+  background-color: rgb(56, 56, 228);
   color:bisque;
   text-align: left;
 }
@@ -73,7 +73,7 @@ body {
 
 #form-container h2 {
   font-family: 'Oswald', sans-serif;
-  position: inline-flex;
+  position: relative;
   float: top left;
   padding: 10%;
   width: 25%;
