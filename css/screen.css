@@ -82,9 +82,11 @@ body {
 #form-container form label {
   position: inline-flex;
   padding: 5px;
+  float: inline-end;
 }
 
 #form-container form input {
   position: inline-flex;
   padding: 5px;
+  float: inline-end;
 }
