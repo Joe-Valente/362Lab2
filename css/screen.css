@@ -79,9 +79,11 @@ a a:hover a:visited a:active {
 
 #form-container h2 {
   font-family: 'Oswald', sans-serif;
+  font-size: 150%;
   position: relative;
   padding: 10%;
   width: 25%;
+  text-align: inherit;
 }
 
 #form-container form {
