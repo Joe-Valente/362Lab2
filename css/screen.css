@@ -24,7 +24,7 @@ a a:hover a:visited a:active {
 #navbar-container {
   font-family: 'Oswald', sans-serif;
   font-size: large;
-  position: inline-block;
+  position: relative;
   float: left;
   padding: 10px 10px;
   width: 90%;
@@ -40,7 +40,8 @@ a a:hover a:visited a:active {
 
 #main-navbar ul li a{
   text-decoration: underline;
-  display: relative;
+  position: relative;
+  display: inline-flex;
 }
 
 #main-navbar ul {
@@ -55,7 +56,6 @@ a a:hover a:visited a:active {
 #form-container {
   text-align: center;
   width: 90%;
-  float: center;
 }
 
 #form-container form {
