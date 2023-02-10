@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
-@viewport {
-  width: device-width; 
-  zoom: 1.0;
-}
 
-@media screen and (max-width: 480px) {
-
+@media only screen and (max-width: 480px) {
+  #navbar-container {
+    padding: 5px 5px;
+  }
+  #form-container form {
+    padding: 5px 5px;
+  }
 }
 
 body {
-  background-color: rgb(56, 56, 228);
+  background-color: rgba(223, 13, 83, 0.678);
   color:bisque;
   text-align: left;
 }
@@ -25,8 +26,9 @@ a a:hover a:visited a:active {
   font-size: large;
   position: inline-block;
   float: left;
-  padding: 10px;
-  width: 100%;
+  padding: 10px 10px;
+  width: 90%;
+  margin: auto;
 }
 
 #main-navbar {
@@ -51,16 +53,25 @@ a a:hover a:visited a:active {
 }
 
 #form-container {
-  float: left;  
-  position: relative;
   text-align: center;
-  padding: 10px;
-  width: 100%;
+  width: 90%;
+  float: center;
 }
 
 #form-container form {
   position: relative;
-  padding: 5px;
+  padding: 10px 10px;
   text-decoration: none;
   list-style: none;
+  font-size: 115%;
+}
+
+#form-container h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+}
+
+#form-container form ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
